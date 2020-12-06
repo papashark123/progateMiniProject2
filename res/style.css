@@ -125,3 +125,21 @@ aside .warning-container a:last-child:hover {
   background: transparent;
   color: #7879b9;
 }
+
+@media (prefers-color-scheme: dark) {
+
+  body,
+  aside {
+    background: #263238;
+    color: #fff;
+  }
+
+  img {
+    filter: grayscale(25%);
+  }
+
+  footer a {
+    background: url(progate-white.png) center center no-repeat;
+  }
+  
+}
