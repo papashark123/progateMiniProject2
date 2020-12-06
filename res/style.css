@@ -30,7 +30,7 @@ header .profile-container img {
   height: 100%;
   border: solid 1px #ddd;
   border-radius: 50%;
-  transition: 1s;
+  transition: .25s;
 }
 
 header .profile-container img:hover{
