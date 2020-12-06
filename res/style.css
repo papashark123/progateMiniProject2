@@ -30,6 +30,11 @@ header .profile-container img {
   height: 100%;
   border: solid 1px #ddd;
   border-radius: 50%;
+  transition: 1s;
+}
+
+header .profile-container img:hover{
+  transform: rotate(20deg);
 }
 
 header h1 {
@@ -87,6 +92,7 @@ footer a {
 
 aside {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   display: flex;
@@ -141,5 +147,5 @@ aside .warning-container a:last-child:hover {
   footer a {
     background: url(progate-white.png) center center no-repeat;
   }
-  
+
 }
